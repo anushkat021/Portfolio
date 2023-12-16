@@ -100,7 +100,7 @@ ul li a:active{
     display:grid;
     grid-template-columns:1fr 1fr;
     column-gap:20%;
-    margin-left:10%;
+    margin-left:140px;
     margin-top:0px;
     padding-top:0px;
     justify-content: space-around;
@@ -207,7 +207,7 @@ h1{
     padding-top:0px;
     padding-bottom:20px;
     margin-top:45px;
-    margin-left:24%;
+    margin-left:345px;
     margin-right:2%;
    
 }
@@ -228,11 +228,8 @@ h1{
     display:grid;
     grid-template-rows:1fr 7fr;
     row-gap:1.5%;
-    
     border-radius: 20px;
     padding:20px;
-    transition:font-size 1s;
-    transition:color 1s;
 }
 h3{
     text-decoration-line: underline;
@@ -375,7 +372,7 @@ h4{
     margin-top:4%;
     grid-template-columns:1fr 6fr;
     column-gap:4%;
-    margin-left:25%;
+    margin-left:365px;
 }
 .lang-img{
     width:300px;
@@ -413,7 +410,7 @@ h4{
     display:grid;
     grid-template-columns:6fr 1fr;
     column-gap:4%;
-    margin-left:25%;
+    margin-left:365px;
     margin-top:2%;
     margin-right:3%;
 }
@@ -443,7 +440,7 @@ h4{
     margin-top:5%;
     grid-template-columns:1fr 6fr;
     column-gap:4%;
-    margin-left:25%;
+    margin-left:365px;
     margin-bottom:6%;
 }
 .soft-img{
@@ -606,7 +603,7 @@ Contacts
         margin-right:0px;
     }
     .intro{
-        margin-left:5%;
+        margin-left:15%;
     }
     .nextline{
         margin-top:10%;
@@ -704,6 +701,11 @@ Contacts
     .contact{
         margin-left:0px;
         grid-template-rows:1fr 0.7fr;
+    }
+    .contact-grid{
+        grid-column-gap:30px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     
     
