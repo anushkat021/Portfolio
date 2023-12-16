@@ -30,6 +30,7 @@ hr {
     top:0px;
     left:0px;
     bottom:0px;
+    z-index:4;
     background-image:url("Beige\ Gray\ Minimalist\ Corporate\ Portfolio\ Cover\ Page\ \(1\).png");
     background-color: hsl(25, 38%, 70%);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
@@ -95,7 +96,16 @@ ul li a:active{
 .headb:active{
     background-color: rgb(181, 181, 181);
 }
-
+.head-bar .closebtn {
+    position: absolute;
+    color:#000000;
+    text-decoration: none;
+    top:2px;
+    right: 2px;
+    font-size: 0px;
+    margin-left: 50px;
+    z-index:5;
+}
 .home{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -572,8 +582,29 @@ Contacts
     .head-bar{
         display:none;
     }
+    .left{
+        margin-top:24px;
+    }
     .headb{
         display:block;
+    }
+    .head-bar .closebtn{
+        font-size:30px;
+        border-style: solid;
+        padding-left:4px;
+        padding-right:4px;
+        border-width:1px;
+        border-color:blanchedalmond;
+        border-radius:2px;
+        background-color: beige;
+    }
+    .closebtn:hover{
+        background-color: rgb(200, 200, 185);
+        border-color: rgb(196, 177, 150);
+    }
+    .closebtn:active{
+        background-color: rgb(166, 166, 155);
+        border-color: rgb(175, 158, 135);
     }
     .home{
         grid-template-columns:1fr;

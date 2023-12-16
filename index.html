@@ -17,9 +17,10 @@
     
 </head>
     <div id="home"></div>
-    <button class="headb">☰</button>
+    <button class="headb" onclick="openNav()">☰</button>
 
     <div class="head-bar" id="head-bar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="left" >Anushka Tiwari</div>
             <img src="pic.jpg">
             <div class="right">
@@ -31,6 +32,17 @@
                 </ul>
             </div>
     </div>
+    <script>
+        function openNav() {
+          document.getElementById("head-bar").style.display = "block";
+   
+        }
+        
+        function closeNav() {
+          document.getElementById("head-bar").style.display = "none";
+          
+        }
+        </script>
     <div class="home">
         <div class="image">
             <img class="front" src="Beige Gray.png" alt="my pic">
